@@ -61,8 +61,26 @@ class Solution:
             ans = max(ans, rk - i + 1)
         return ans
 
-sol = Solution
-s = 'abcabcbb'
-len_max = sol.lengthOfLongestSubstring(None, s)
-print(len_max)
 
+class Solution2:
+    """ resolve
+    """
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        str_cur = set()
+        right, max_len = 0, 0
+        n = len(s)
+        for i in range(n):
+            if i > 0 and s[i - 1] in str_cur:
+                str_cur.remove(s[i - 1])
+            while right <= n - 1 and s[right] not in str_cur:
+                str_cur.add(s[right])
+                right += 1
+            max_len = max(max_len, right - i)
+        return max_len
+
+sol = Solution2
+s = ["abcabcbb", "bbbbb", "pwwkew", "a"]
+answer = [3, 1, 3, 0]
+for i in range(len(answer)):
+    len_max = sol.lengthOfLongestSubstring(None, s[i])
+    print(answer[i], len_max)
