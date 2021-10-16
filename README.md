@@ -23,8 +23,6 @@ LeetCode-3-LongestSubstringWithoutRepeatingCharacters
 # DATA STRUCTURE
 ## INTEGER
 LeetCode-7-ReverseInteger
-
-LeetCode-2-AddTwoNumbers
 ## LIST
 LeetCode-1-TwoSum
 ## LINKED LIST
