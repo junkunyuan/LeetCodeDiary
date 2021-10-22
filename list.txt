@@ -2,6 +2,7 @@ IN ORDER
 LeetCode-1-TwoSum
 LeetCode-2-AddTwoNumbers
 LeetCode-3-LongestSubstringWithoutRepeatingCharacters
+LeetCode-4-MedianOfTwoSortedArrays
 LeetCode-7-ReverseInteger
 
 
@@ -15,12 +16,18 @@ MEDIUM
 LeetCode-2-AddTwoNumbers
 LeetCode-3-LongestSubstringWithoutRepeatingCharacters
 
+DIFFICULT
+LeetCode-4-MedianOfTwoSortedArrays
+
 
 DATA STRUCTURE
 
 INTEGER
 LeetCode-7-ReverseInteger
 LeetCode-2-AddTwoNumbers
+
+ARRAY
+LeetCode-4-MedianOfTwoSortedArrays
 
 LIST
 LeetCode-1-TwoSum
