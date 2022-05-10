@@ -1,31 +1,67 @@
 # LeetCode
+
+## Contents
+
+- [In Order](#in-order)
+- [Difficulty](#difficulty)
+    - [Easy](#easy)
+    - [Medium](#medium)
+    - [Difficult](#difficult)
+- [Type](#type)
+    - [Data Structure](#data-structure)
+        - [Integer](#integer)
+        - [Array](#array)
+        - [String](#string)
+        - [Linked List](#linked-list)
  
-# IN ORDER
-LeetCode-1-TwoSum
+## In Order
+[1] Two Sum ([Easy](#easy), [Array](#array), [Hash Map](#hash-map))
 
-LeetCode-2-AddTwoNumbers
+[2] Add Two Numbers ([Median](#medium), [Linked List](#linked-list))
 
-LeetCode-3-LongestSubstringWithoutRepeatingCharacters
+[3] Longest Substring Without Repeating Characters ([Median](#medium), [String](#string))
 
-LeetCode-7-ReverseInteger
+[4] Median Of Two Sorted Arrays ([Difficult](#difficult), [Array](#array))
 
-# DIFFICULTY
-## EASY
-LeetCode-1-TwoSum
+[7] Reverse Integer ([Easy](#easy), [Integer](#integer))
 
-LeetCode-7-ReverseInteger
-## MEDIUM
-LeetCode-2-AddTwoNumbers
+## Difficulty
+### Easy
+- Two Sum
 
-LeetCode-3-LongestSubstringWithoutRepeatingCharacters
+- Reverse Integer
 
+### Medium
+- Add Two Numbers
 
-# DATA STRUCTURE
-## INTEGER
-LeetCode-7-ReverseInteger
-## LIST
-LeetCode-1-TwoSum
-## LINKED LIST
-LeetCode-2-AddTwoNumbers
-## STRING
-LeetCode-3-LongestSubstringW0ithoutRepeatingCharacters
+- Longest Substring Without Repeating Characters
+
+### Difficult
+
+- Median Of Two Sorted Arrays
+
+## Type
+
+### Data Structure
+
+#### Integer
+
+- Reverse Integer
+
+#### Array
+
+- Two Sum
+
+- Median Of Two Sorted Arrays
+
+#### String
+
+- Longest Substring Without Repeating Characters
+
+#### Linked List
+
+- Add Two Numbers
+
+#### Hash Map
+
+- Two Sum
