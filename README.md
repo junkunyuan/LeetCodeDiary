@@ -10,9 +10,10 @@
 - [Type](#type)
     - [Data Structure](#data-structure)
         - [Integer](#integer)
-        - [Array](#array)
-        - [String](#string)
+        - [Array & String](#array--string)
         - [Linked List](#linked-list)
+        - [Set](#set)
+        - [Mapping & Hash Table & Jump Table](#mapping--hash-table--jump-table)
  
 ## In Order
 [1] Two Sum ([Easy](#easy), [Array](#array), [Hash Map](#hash-map))
@@ -27,18 +28,18 @@
 
 ## Difficulty
 ### Easy
-- Two Sum
+[1] Two Sum
 
-- Reverse Integer
+[7] Reverse Integer
 
 ### Medium
-- Add Two Numbers
+[2] Add Two Numbers
 
-- Longest Substring Without Repeating Characters
+[3] Longest Substring Without Repeating Characters
 
 ### Difficult
 
-- Median Of Two Sorted Arrays
+[4] Median Of Two Sorted Arrays
 
 ## Type
 
@@ -46,22 +47,24 @@
 
 #### Integer
 
-- Reverse Integer
+[7] Reverse Integer
 
-#### Array
+#### Array & String
 
-- Two Sum
+[1] Two Sum
 
-- Median Of Two Sorted Arrays
+[3] Longest Substring Without Repeating Characters
 
-#### String
+[4] Median Of Two Sorted Arrays
 
-- Longest Substring Without Repeating Characters
 
 #### Linked List
 
-- Add Two Numbers
+[2] Add Two Numbers
 
-#### Hash Map
+#### Set
+[3] Longest Substring Without Repeating Characters
 
-- Two Sum
+#### Mapping & Hash Table & Jump Table
+
+[1] Two Sum
