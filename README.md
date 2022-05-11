@@ -14,15 +14,16 @@
         - [Linked List](#linked-list)
         - [Set](#set)
         - [Mapping & Hash Table & Jump Table](#mapping--hash-table--jump-table)
+        - [Binary Search](#binary-search)
  
 ## In Order
-[1] Two Sum ([Easy](#easy), [Array](#array), [Hash Map](#hash-map))
+[1] Two Sum ([Easy](#easy), [Array & String](#array--string), [Mapping & Hash Table & Jump Table](#mapping--hash-table--jump-table))
 
 [2] Add Two Numbers ([Median](#medium), [Linked List](#linked-list))
 
 [3] Longest Substring Without Repeating Characters ([Median](#medium), [String](#string))
 
-[4] Median Of Two Sorted Arrays ([Difficult](#difficult), [Array](#array))
+[4] Median Of Two Sorted Arrays ([Difficult](#difficult), [Array & String](#array-string), [Binary Search](#binary-search))
 
 [7] Reverse Integer ([Easy](#easy), [Integer](#integer))
 
@@ -68,3 +69,6 @@
 #### Mapping & Hash Table & Jump Table
 
 [1] Two Sum
+
+#### Binary Search
+[4] Median Of Two Sorted Arrays
