@@ -32,8 +32,6 @@ class Solution:
     # def twoSum(self, nums: list[int], target: int) -> list[int]:
 """
 
-from sympy import re
-
 
 class Solution_1:
     """ Solution 1
@@ -50,7 +48,7 @@ class Solution_1:
 
 
 class Solution_2:
-    """ Solution 2 (my solution)
+    """ Solution 2 (mine)
         O(n);
         time: 372ms; memory: 15.1MB;
         ind_1: for loop of nums;
@@ -118,3 +116,6 @@ output1 = [0, 1]
 output2 = [1, 0]
 output_sol = sol.twoSum(nums, target)
 print(True if output_sol == output1 or output_sol == output2 else False)
+
+import torch
+torch.nn.GELU

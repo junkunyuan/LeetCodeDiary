@@ -27,11 +27,15 @@
 
 [7] Reverse Integer ([Easy](#easy), [Integer](#integer))
 
+[9] Palindrome Number ([Easy](#easy), [Integer](#integer))
+
 ## Difficulty
 ### Easy
 [1] Two Sum
 
 [7] Reverse Integer
+
+[9] Palindrome Number
 
 ### Medium
 [2] Add Two Numbers
@@ -49,6 +53,8 @@
 #### Integer
 
 [7] Reverse Integer
+
+[9] Palindrome Number
 
 #### Array & String
 
