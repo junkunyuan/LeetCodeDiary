@@ -73,7 +73,6 @@ class Solution_2:
 
 
 # Test
-
 sol = Solution_2()
 
 # Example 1:
