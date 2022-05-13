@@ -4,17 +4,7 @@
 
 - [In Order](#in-order)
 - [Difficulty](#difficulty)
-    - [Easy](#easy)
-    - [Medium](#medium)
-    - [Difficult](#difficult)
 - [Type](#type)
-    - [Data Structure](#data-structure)
-        - [Integer](#integer)
-        - [Array & String](#array--string)
-        - [Linked List](#linked-list)
-        - [Set](#set)
-        - [Mapping & Hash Table & Jump Table](#mapping--hash-table--jump-table)
-        - [Binary Search](#binary-search)
  
 ## In Order
 [1] Two Sum ([Easy](#easy), [Array & String](#array--string), [Mapping & Hash Table & Jump Table](#mapping--hash-table--jump-table))
@@ -25,56 +15,37 @@
 
 [4] Median Of Two Sorted Arrays ([Difficult](#difficult), [Array & String](#array-string), [Binary Search](#binary-search))
 
-[7] Reverse Integer ([Easy](#easy), [Integer](#integer))
+[7] Reverse Integer (Easy, Integer)
 
-[9] Palindrome Number ([Easy](#easy), [Integer](#integer))
+[9] Palindrome Number (Easy, Integer)
+
+[13] Roman To Integer (Easy, Integer)
+
+[206] Reverse Linked List (Easy, Linked List)
+
+[215] Kth Largest Element in an Array (Median, Sort)
+
+[912] Sort an Array (Median, Sort)
 
 ## Difficulty
-### Easy
-[1] Two Sum
 
-[7] Reverse Integer
+|  Difficulty  |  Problem  |
+|  ----  |  ----  |
+|  Easy  |  [1], [7], [9], [13], [206] |
+|  Median  |  [2], [3], [215], [912]  |
+|  Difficult  |  [4]  |
 
-[9] Palindrome Number
-
-### Medium
-[2] Add Two Numbers
-
-[3] Longest Substring Without Repeating Characters
-
-### Difficult
-
-[4] Median Of Two Sorted Arrays
 
 ## Type
 
 ### Data Structure
 
-#### Integer
-
-[7] Reverse Integer
-
-[9] Palindrome Number
-
-#### Array & String
-
-[1] Two Sum
-
-[3] Longest Substring Without Repeating Characters
-
-[4] Median Of Two Sorted Arrays
-
-
-#### Linked List
-
-[2] Add Two Numbers
-
-#### Set
-[3] Longest Substring Without Repeating Characters
-
-#### Mapping & Hash Table & Jump Table
-
-[1] Two Sum
-
-#### Binary Search
-[4] Median Of Two Sorted Arrays
+|  Data Structure  |  Problem  |
+|  ----  |  ----  |
+|  Integer  |  [7], [9], [13]  |
+|  Array & String  |  [1], [3], [4]  |
+|  Linked List  |  [2], [206]  |
+|  Set  |  [3]  |
+|  Mapping & Hash Table & Jump Table  |  [1]  |
+|  Binary Search  |  [4]  |
+|  Quick Sort  |  [215], [912]  |
