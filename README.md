@@ -7,33 +7,33 @@
 - [Type](#type)
  
 ## In Order
-[1] Two Sum (Easy, Array & String, Hash Table)
+[1] Two Sum
 
-[2] Add Two Numbers (Median, Linked List)
+[2] Add Two Numbers
 
-[3] Longest Substring Without Repeating Characters (Median, Array & String)
+[3] Longest Substring Without Repeating Characters
 
-[4] Median Of Two Sorted Arrays (Difficult, Array & String, Binary Search)
+[4] Median Of Two Sorted Arrays
 
-[7] Reverse Integer (Easy, Integer)
+[7] Reverse Integer
 
-[9] Palindrome Number (Easy, Integer)
+[9] Palindrome Number
 
-[13] Roman To Integer (Easy, Array & String)
+[13] Roman To Integer
 
-[15] 3 Sum (Median, Array & String)
+[15] 3 Sum
 
-[46] Permutations (Median, Recursion)
+[46] Permutations
 
-[53] Maximum Subarray (Easy, Array & String, Dynamic Programming)
+[53] Maximum Subarray
 
-[141] Linked List Cycle (Easy, Linked List)
+[141] Linked List Cycle
 
-[206] Reverse Linked List (Easy, Linked List)
+[206] Reverse Linked List
 
-[215] Kth Largest Element in an Array (Median, Quick Sort)
+[215] Kth Largest Element in an Array
 
-[912] Sort an Array (Median, Quick Sort)
+[912] Sort an Array
 
 ## Difficulty
 
