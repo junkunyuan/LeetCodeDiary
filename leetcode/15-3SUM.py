@@ -27,32 +27,54 @@ class Solution:
 
 
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
         n = len(nums)
         nums.sort()
         ans = list()
         
-        # 枚举 a
+        # Enumerate a
         for first in range(n):
-            # 需要和上一次枚举的数不相同
-            if first > 0 and nums[first] == nums[first - 1]:
+            # Be different from the previous one
+            if nums[first] == nums[first - 1] and first > 0:
                 continue
-            # c 对应的指针初始指向数组的最右端
             third = n - 1
             target = -nums[first]
-            # 枚举 b
+            # Enumerate b
             for second in range(first + 1, n):
-                # 需要和上一次枚举的数不相同
+                # Be different from the previous one
                 if second > first + 1 and nums[second] == nums[second - 1]:
                     continue
-                # 需要保证 b 的指针在 c 的指针的左侧
                 while second < third and nums[second] + nums[third] > target:
                     third -= 1
-                # 如果指针重合，随着 b 后续的增加
-                # 就不会有满足 a+b+c=0 并且 b<c 的 c 了，可以退出循环
                 if second == third:
                     break
                 if nums[second] + nums[third] == target:
                     ans.append([nums[first], nums[second], nums[third]])
-        
         return ans
+
+
+# Test
+sol = Solution()
+# Example 1:
+# Input: nums = [-1,0,1,2,-1,-4]
+# Output: [[-1,-1,2],[-1,0,1]]
+input = [-1,0,1,2,-1,-4]
+output =  [[-1,-1,2],[-1,0,1]]
+output_sol = sol.threeSum(input)
+print(True if output_sol == output else False)
+
+# Example 2:
+# Input: nums = []
+# Output: []
+input = []
+output = []
+output_sol = sol.threeSum(input)
+print(True if output_sol == output else False)
+
+# Example 3:
+# Input: nums = [0]
+# Output: []
+input = [0]
+output = []
+output_sol = sol.threeSum(input)
+print(True if output_sol == output else False)
