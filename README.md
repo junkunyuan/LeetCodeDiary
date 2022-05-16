@@ -7,39 +7,45 @@
 - [Type](#type)
  
 ## In Order
-[1] Two Sum
+1. [1] Two Sum
 
-[2] Add Two Numbers
+2. [2] Add Two Numbers
 
-[3] Longest Substring Without Repeating Characters
+3. [3] Longest Substring Without Repeating Characters
 
-[4] Median Of Two Sorted Arrays
+4. [4] Median Of Two Sorted Arrays
 
-[7] Reverse Integer
+7. [7] Reverse Integer
 
-[9] Palindrome Number
+9. [9] Palindrome Number
 
-[13] Roman To Integer
+13. [13] Roman To Integer
 
-[15] 3 Sum
+15. [15] 3 Sum
 
-[46] Permutations
+20. [20] Valid Parentheses
 
-[53] Maximum Subarray
+46. [46] Permutations
 
-[141] Linked List Cycle
+53. [53] Maximum Subarray
 
-[206] Reverse Linked List
+54. [94] Binary Tree Inorder Traversal
 
-[215] Kth Largest Element in an Array
+70. [70] Climbing Stairs
 
-[912] Sort an Array
+141. [141] Linked List Cycle
+
+206. [206] Reverse Linked List
+
+215. [215] Kth Largest Element in an Array
+
+912. [912] Sort an Array
 
 ## Difficulty
 
 |  Difficulty  |  Problem  |
 |  ----  |  ----  |
-|  Easy  |  [1], [7], [9], [13], [206], [141], [53] |
+|  Easy  |  [1], [7], [9], [13], [206], [141], [53], [94], [20], [70] |
 |  Median  |  [2], [3], [215], [912], [15], [46]  |
 |  Difficult  |  [4]  |
 
@@ -51,11 +57,13 @@
 |  Data Structure  |  Problem  |
 |  ----  |  ----  |
 |  Integer  |  [7], [9]  |
-|  Array & String  |  [1], [3], [4], [13], [15], [53]  |
+|  Array & String  |  [1], [3], [4], [13], [15], [53], [20]  |
 |  Linked List  |  [2], [206], [141]  |
 |  Set  |  [3]  |
 |  Hash Table  |  [1]  |
 |  Binary Search  |  [4]  |
 |  Quick Sort  |  [215], [912]  |
-|  Dynamic Programming  |  [53]  |
-|  Recursion  |  [46]  |
+|  Dynamic Programming  |  [53], [70]  |
+|  Depth-First Search  |  [46]  |
+|  Binary Tree  |  [94]  |
+|  Stack  |  [20]  |
