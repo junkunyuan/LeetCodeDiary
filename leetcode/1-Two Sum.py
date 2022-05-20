@@ -36,7 +36,7 @@ class Solution:
 class Solution_1:
     """ Solution 1
         O(n^2)
-        time: 5968ms, memory: 15.1MB
+        5968ms, 15.1MB
         ind_1: for loop of nums
         ind_2: for loop of nums, ind_2 == target - ind_1
     """
@@ -49,9 +49,9 @@ class Solution_1:
 
 class Solution_2:
     """ Solution 2 (mine)
-        O(n);
-        time: 372ms; memory: 15.1MB;
-        ind_1: for loop of nums;
+        O(n)
+        372ms, 15.1MB
+        ind_1: for loop of nums
         ind_2: the first element of nums[ind_1 + 1:] == target - nums[ind_1]
     """
     def twoSum(self, nums, target) -> list[int]:
@@ -64,10 +64,10 @@ class Solution_2:
 
 class Solution_3:
     """ Solution 3 (https://leetcode-cn.com/problems/two-sum/solution/xiao-bai-pythonji-chong-jie-fa-by-lao-la-rou-yue-j/) 
-        O(n);
-        time: 44ms; memory: 15.8MB;
-        ind_1: hash map of nums;
-        ind_2: search the hash map.
+        O(n)
+        44ms, 15.8MB
+        ind_1: hash map of nums
+        ind_2: search the hash map
     """
     def twoSum(self, nums, target) -> list[int]:
         hashmap = {}
@@ -80,9 +80,6 @@ class Solution_3:
 
 
 # Test
-
-# class Solution:
-    # def twoSum(self, nums: list[int], target: int) -> list[int]:
 
 sol = Solution_3()
 

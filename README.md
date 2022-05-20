@@ -5,6 +5,7 @@
 - [In Order](#in-order)
 - [Difficulty](#difficulty)
 - [Type](#type)
+- [Completion](#completion)
  
 ## In Order
 1. [1] Two Sum
@@ -67,3 +68,9 @@
 |  Depth-First Search  |  [46]  |
 |  Binary Tree  |  [94]  |
 |  Stack  |  [20]  |
+|  Sliding window | [3] |
+
+### Completion
+| Learning | Familiartiy | Mastery |
+| ---- | ---- | ---- |
+| [4], [15], [20], [46], [53], [70], [94], [141], [206], [215], [912] | [2], [3], [9] | [1], [7], [13] |

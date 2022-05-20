@@ -34,19 +34,19 @@ class Solution:
 
 
 # Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 
 class Solution_1:
     """ Solution 1 (https://leetcode-cn.com/problems/add-two-numbers/solution/2-liang-shu-xiang-jia-python-lian-biao-b-xsy6/)
     O(m+n);
-    time: 48ms; memory: 14.9MB;
+    48ms, 14.9MB
     l3: new linked list
     """
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        l3 = p = ListNode
+        l3 = p = ListNode()
         s = 0
         while l1 or l2 or s != 0:
             s += (l1.val if l1 else 0) + (l2.val if l2 else 0)

@@ -32,8 +32,8 @@ class Solution:
 
 class Solution_1:
     """ Solution 1 (https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/)
-    O(n);
-    time: 68ms; memory: 15.1 MB 
+    O(n)
+    68ms, 15.1 MB 
     """
     def lengthOfLongestSubstring(self, s: str) -> int:
         # Construct hash set
@@ -53,9 +53,16 @@ class Solution_1:
         return ans
 
 
-
 # Test
 sol = Solution_1()
+
+# Example test:
+# Input: s = " "
+# Output: 1
+input = " "
+output = 1
+output_sol = sol.lengthOfLongestSubstring(input)
+print(True if output_sol == output else False)
 
 # Example 1:
 # Input: s = "abcabcbb"
@@ -64,7 +71,6 @@ sol = Solution_1()
 input = "abcabcbb"
 output = 3
 output_sol = sol.lengthOfLongestSubstring(input)
-print(output_sol)
 print(True if output_sol == output else False)
 
 # Example 2:
@@ -74,6 +80,7 @@ print(True if output_sol == output else False)
 input = "bbbbb"
 output = 1
 output_sol = sol.lengthOfLongestSubstring(input)
+print(True if output_sol == output else False)
 
 # Example 3:
 # Input: s = "pwwkew"

@@ -32,9 +32,9 @@ class Solution:
 
 class Solution_1:
     """
-    Solution 1: (mine)
-    O(logN); O(logN)
-    92ms; 15MB
+    Solution 1:
+    O(logN), O(logN)
+    92ms, 15MB
     """
     def isPalindrome(self, x: int) -> bool:
         l = []
@@ -57,8 +57,8 @@ class Solution_1:
 class Solution_2:
     """
     Solution 2: (https://leetcode.cn/problems/palindrome-number/solution/hui-wen-shu-by-leetcode-solution/)
-    O(logN); O(1)
-    60ms; 14.8MB
+    O(logN), O(1)
+    60ms, 14.8MB
     """
     def isPalindrome(self, x: int) -> bool:
         l = []

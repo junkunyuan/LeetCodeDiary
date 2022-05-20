@@ -28,6 +28,7 @@ class Solution:
     def reverse(self, x: int) -> int:
 """
 
+
 class Solution_1:
     """
     Solution 1: (my solution)
@@ -102,7 +103,15 @@ class Solution_3:
 #     def reverse(self, x: int) -> int:
 
 
-sol = Solution_2()
+sol = Solution_3()
+
+# Example test:
+# Input: x =  -2**31 - 1
+# Output: 0
+input = -2**31 - 1
+output = 0
+output_sol = sol.reverse(input)
+print(True if output_sol == output else False)
 
 # Example 1:
 # Input: x = 123

@@ -46,12 +46,25 @@ class Solution:
     def romanToInt(self, s: str) -> int:
 """
 
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        str = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        ans = 0
+        n = len(s)
+        for i in range(n):
+            curr = str[s[i]]
+            if i + 1 < n and curr < str[s[i + 1]]:
+                ans -= curr
+            else:
+                ans += curr
+        return ans
+
 
 class Solution_1:
     """
-    Solutin 1 (mine)
-    O(n); O(1)
-    68ms; 15.1MB
+    Solutin 1    
+    O(n), O(1)
+    68ms, 15.1MB
     """
     def romanToInt(self, s: str) -> int:
         dic = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
@@ -72,8 +85,8 @@ class Solution_1:
 class Solution_2:
     """
     Solutin 2 (https://leetcode.cn/problems/roman-to-integer/solution/luo-ma-shu-zi-zhuan-zheng-shu-by-leetcod-w55p/)
-    O(n); O(1)
-    36ms; 15MB
+    O(n), O(1)
+    36ms, 15MB
     """
     def romanToInt(self, s: str) -> int:
         dic = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
@@ -88,7 +101,7 @@ class Solution_2:
         return d
 
 # Test
-sol = Solution_2()
+sol = Solution()
 
 # Example 1:
 # Input: s = "III"
