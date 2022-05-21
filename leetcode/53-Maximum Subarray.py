@@ -25,15 +25,14 @@ Constraints:
 Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
+    def maxSubArray(self, nums: list[int]) -> int:
 """
 
 
-class Solution:
+class Solution_1:
     """
     Solution 1:
-    mine
-    96ms; 25.5MB
+    96ms, 25.5MB
     """
     def maxSubArray(self, nums: list[int]) -> int:
         max_num = nums[0]
@@ -60,11 +59,11 @@ class Solution:
         return max_num
 
 
-class Solution:
+class Solution_2:
     """
     Solution 2
     https://leetcode.cn/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/
-    144ms; 25.9MB
+    144ms, 25.9MB
     """
     def maxSubArray(self, nums: list[int]) -> int:
         size = len(nums)
@@ -83,7 +82,7 @@ class Solution:
 
 
 # Test
-sol = Solution()
+sol = Solution_2()
 
 # Example 1:
 # Input: nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]

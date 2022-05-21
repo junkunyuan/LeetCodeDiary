@@ -21,16 +21,17 @@ Constraints:
     All the integers of nums are unique.
 
 class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
+    def permute(self, nums: list[int]) -> list[list[int]]:
 """
+        
 
 class Solution:
     def permute(self, nums: list[int]) -> list[list[int]]:
         """
         Solution 1
         https://leetcode.cn/problems/permutations/solution/quan-pai-lie-by-leetcode-solution-2/
-        O(n*n!); O(n)
-        40ms; 15.2 MB
+        O(n*n!), O(n)
+        40ms, 15.2 MB
         """
         def backtrack(first = 0):
             # Finish all

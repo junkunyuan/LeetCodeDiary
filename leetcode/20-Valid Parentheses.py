@@ -26,7 +26,7 @@ Constraints:
 class Solution:
     def isValid(self, s: str) -> bool:
 """
-
+             
 
 class Solution_1:
     def isValid(self, s: str) -> bool:
@@ -77,7 +77,7 @@ class Solution_2:
 
 
 # Test
-sol = Solution_1()
+sol = Solution_2()
 
 # Example 1:
 # Input: s = "()"

@@ -26,11 +26,12 @@ class Solution:
     def climbStairs(self, n: int) -> int:
 """
 
+
 class Solution_1:
     """
     solution 1
-    O(n); O(n)
-    32ms; 14.8MB
+    O(n), O(n)
+    32ms, 14.8MB
     """
     def climbStairs(self, n: int) -> int:
         if n == 1:
@@ -42,15 +43,23 @@ class Solution_1:
             dp[i] = dp[i - 1] + dp[i - 2]
         return dp[n]
 
-# class Solution:
-#     def climbStairs(self, n: int) -> int:
-#         x, y = 1, 1
-#         for _ in range(1, n):
-#             x, y = y, x + y
-#         return y
+class Solution_2:
+    def climbStairs(self, n: int) -> int:
+        first = 1 
+        second = 2
+        if n == 1:
+            return 1
+        elif n == 2:
+            return 2
+        else:
+            for _ in range(2, n):
+                third = first + second
+                first = second
+                second = third
+            return third
 
 # Test
-sol = Solution()
+sol = Solution_2()
 
 # Example 1:
 # Input: n = 2

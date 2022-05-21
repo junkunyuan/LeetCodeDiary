@@ -55,22 +55,24 @@
 
 ### Data Structure
 
-|  Data Structure  |  Problem  |
-|  ----  |  ----  |
-|  Integer  |  [7], [9]  |
-|  Array & String  |  [1], [3], [4], [13], [15], [53], [20]  |
-|  Linked List  |  [2], [206], [141]  |
-|  Set  |  [3]  |
-|  Hash Table  |  [1]  |
-|  Binary Search  |  [4]  |
-|  Quick Sort  |  [215], [912]  |
-|  Dynamic Programming  |  [53], [70]  |
-|  Depth-First Search  |  [46]  |
-|  Binary Tree  |  [94]  |
-|  Stack  |  [20]  |
-|  Sliding window | [3] |
+|  Data Structure  |  Key Words |  Strategies  |  Problem  |
+|  ----  |  ----  |  ----  |  ----  |
+|  Integer  |  /  |  /  |  [7], [9]  |
+|  Array & String  |  /  |  sort?  |  [13]  |
+|  Linked List  |  /  |  empty head  |  [2], [206], [141]  |
+|  Set  |  non repetitive  |  ``set.remove``, ``set.add``  |  [3]  |
+|  Hash Table  |  time limited  |  space for time  |  [1]  |
+|  Binary Search  |  sorted/ordered array, O(logN)  |  watch borders  |  [4]  |
+|  Quick Sort  |  |  |  [215], [912]  |
+|  Dynamic Programming  |  time series, reuse result, time limited  |  new array for time   |  [53], [70]  |
+|  Depth-First Search  |  traversal of binary tree  |  depth boundary  |  [46]  |
+|  Binary Tree  |  |  |  [94]  |
+|  Stack  |  nesting  | ``list.pop``  |  [20]  |
+|  Sliding Window/Double Pointer |  sorted/ordered array  |  left/right pointer  | [3], [15] |
+|  Recursion  |  sub-task, tree  |  boundary, relation between n and n-1  |  [46]  |
+|  Breadth-First Search  |  shortest path  |  root, neighboor, stop  |  |
 
 ### Completion
-| Learning | Familiartiy | Mastery |
-| ---- | ---- | ---- |
-| [4], [15], [20], [46], [53], [70], [94], [141], [206], [215], [912] | [2], [3], [9] | [1], [7], [13] |
+|  Learning  | Learning (difficult) |  Familiartiy  |  Mastery  |
+|  ----  |  ----  |  ----  |  ----  |
+| [94], [141], [206], [215], [912]  |  [4]  |  [2], [3], [9], [15], [20], [46]  | [1], [7], [13], [53], [70]  |
