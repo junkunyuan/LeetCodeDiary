@@ -4,7 +4,7 @@
 
 - [In Order](#in-order)
 - [Difficulty](#difficulty)
-- [Type](#type)
+- [Data Structure](#data-structure)
 - [Completion](#completion)
  
 ## In Order
@@ -51,9 +51,7 @@
 |  Difficult  |  [4]  |
 
 
-## Type
-
-### Data Structure
+## Data Structure
 
 |  Data Structure  |  Key Words |  Strategies  |  Problem  |
 |  ----  |  ----  |  ----  |  ----  |
@@ -72,7 +70,7 @@
 |  Recursion  |  sub-task, tree  |  boundary, relation between n and n-1  |  [46]  |
 |  Breadth-First Search  |  shortest path  |  root, neighboor, stop  |  |
 
-### Completion
+## Completion
 |  Learning  | Learning (difficult) |  Familiartiy  |  Mastery  |
 |  ----  |  ----  |  ----  |  ----  |
 | [94], [141], [206], [215], [912]  |  [4]  |  [2], [3], [9], [15], [20], [46]  | [1], [7], [13], [53], [70]  |
