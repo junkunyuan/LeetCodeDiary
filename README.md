@@ -62,7 +62,7 @@
 |  Set  |  non repetitive  |  ``set.remove``, ``set.add``  |  [3]  |
 |  Hash Table  |  time limited  |  space for time  |  [1]  |
 |  Binary Search  |  sorted/ordered array, O(logN)  |  watch borders  |  [4]  |
-|  Quick Sort  |  |  |  [215], [912]  |
+|  Quick Sort  |  k-th largest/smallest  |  /  |  [215], [912]  |
 |  Dynamic Programming  |  time series, reuse result, time limited  |  new array for time   |  [53], [70]  |
 |  Depth-First Search  |  traversal of binary tree  |  depth boundary  |  [46]  |
 |  Binary Tree  |  /  |  /  |  [94]  |
