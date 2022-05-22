@@ -28,8 +28,29 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 #         self.left = left
 #         self.right = right
 class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> list[int]:
 """
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> list[int]:
+        def traversal(node):
+            if not node:
+                return
+            if node.left: traversal(node.left)
+            output.append(node.val)
+            if node.right: traversal(node.right)
+
+        output = []
+        traversal(root)
+        return output
+
+
 
 
 # Definition for a binary tree node.
@@ -41,7 +62,7 @@ class TreeNode:
 class Solution:
     """
     Solution 1
-    先序遍历: preorder traversal; 中序遍历: inorder traversal; 后序遍历: postorder traversal
+    preorder traversal, inorder traversal, postorder traversal
     """
     def inorderTraversal(self, root: Optional[TreeNode]) -> list[int]:
         ans = []

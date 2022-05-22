@@ -30,8 +30,6 @@ class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
 """
 
-from typing import List
-
 
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -42,8 +40,8 @@ class Solution:
     """
     Solution 1: (https://leetcode.cn/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode-solution-d1k2/)
     Iteration
-    O(n); O(1)
-    26ms; 16MB
+    O(n), O(1)
+    26ms, 16MB
     """
     def reverseList(self, head: ListNode) -> ListNode:
         prev = None

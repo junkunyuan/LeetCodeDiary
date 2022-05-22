@@ -17,38 +17,16 @@ Constraints:
     -104 <= nums[i] <= 104
 
 class Solution:
-    def findKthLargest(self, nums: List[int], k: int) -> int:
+    def findKthLargest(self, nums: list[int], k: int) -> int:
 """
 
 
-class Solution:
-    def findKthLargest(self, nums: list[int], k: int) -> int:
-        l = 0
-        r = len(nums) - 1
-        while True:
-            idx = self.partition(nums, l, r)
-            if idx == k - 1:
-                return nums[idx]
-            elif idx < k - 1:
-                l = idx + 1
-            else:
-                r = idx - 1
-
-    # quick sort
-    def partition(self, nums: list[int], l: int, r: int) -> int:
-        pivot = nums[l]
-        begin = l
-        while l < r:
-            while l < r and nums[r] <= pivot:
-                r -= 1
-            while l < r and nums[l] >= pivot:
-                l += 1
-            if l < r:
-                nums[l], nums[r] = nums[r], nums[l]
-        nums[begin], nums[l] = nums[l], nums[begin]
-        return l
-
-class Solution:
+class Solution_1:
+    """
+    Solution 1
+    Quick sort
+    700ms, 15.7MB
+    """
     def findKthLargest(self, nums: list[int], k: int) -> int:
         l = 0
         r = len(nums) - 1
@@ -75,10 +53,8 @@ class Solution:
         return l
 
 
-
-
 # Test
-sol = Solution()
+sol = Solution_1()
 
 # Example 1:
 # Input: nums = [3,2,1,5,6,4], k = 2
